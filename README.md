@@ -8,7 +8,7 @@ This repository is designed to analyze data and create summary tables of standar
 
 The CSV files are imported into the Jupyter Notebook file (PyCitySchools_starter.ipynb) and merged using a left join. From the merged dataframe, mathematical functions (i.e., sum, length, average, percent) are used to created a **District Summary** table, and the GroupBy function is used to create a similar table, **School Summary**, which displays the same information for each school in the district.
 
-Data Analysis:
+### Data Analysis
 - The sort_values function is used to list the top 5 and bottom 5 schools by overall % of students that passed both math and rading.
 - The GroupBy function is used to create tables that show average and % passing math and reading scores by grade, school size, spending, and school type (i.e., district or charter).
 
@@ -28,12 +28,7 @@ Data Analysis:
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the home directory and open index.html in your browser.
-
-### Data Sources
-
-* Hulcr J, Latimer AM, Henley JB, Rountree NR, Fierer N, et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. PLoS ONE 7(11): e47712. doi:10.1371/journal.pone.0047712 [Access Data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
-
+* Navitage to the PyCitySchools directory and run the PyCitySchools_starter.ipynb file in Jupyter Notebook. 
 
 ## Authors
 
