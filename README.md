@@ -3,9 +3,9 @@
   * The overall passing rate decreased as with increased spending per student.
   * Small (<1,000 students) and medium (1,000-2,000 students) sized schools had higher overall passing rates than large (2,000-5,000 students) schools.
   * Average math and reading scores were higher for charter schools compared to district schools.
-# Interactive Web Visualizations 
+# Standardized Test Results 
 
-Interactive dashboard that displays charts and text from a JSON file. View the final product [here](https://klbowman.github.io/microbiome-dashboard/).
+Jupyter Notebook file that uses Pandas to analyze district-wide standardized test results.
 
 ## Description
 
@@ -27,9 +27,9 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 
 ### Technologies Used 
 
-* JavaScript
-* HTML
-* CSS
+* Jupyter Notebook
+* Python
+* Pandas
 
 ### Installing
 
