@@ -1,8 +1,3 @@
-# pandas-challenge
-**Observable trends**:
-  * The overall passing rate decreased as with increased spending per student.
-  * Small (<1,000 students) and medium (1,000-2,000 students) sized schools had higher overall passing rates than large (2,000-5,000 students) schools.
-  * Average math and reading scores were higher for charter schools compared to district schools.
 # Pandas Data Analysis 
 
 Jupyter Notebook file that uses Pandas to analyze district-wide standardized test results.
@@ -15,26 +10,12 @@ The CSV files are imported into the Jupyter Notebook file (PyCitySchools_starter
 
 Data Analysis:
 - The sort_values function is used to list the top 5 and bottom 5 schools by overall % of students that passed both math and rading.
-- The GroupBy function is used to create tables that show average and % passing math and reading scores by grade.
-- average and percent passing by school size and spending and type (charter discrict 
+- The GroupBy function is used to create tables that show average and % passing math and reading scores by grade, school size, spending, and school type (i.e., district or charter).
 
-
-
-
-
-visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
-
-The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
-* Bar graph displaying the top 10 OTUs by count
-* Gauge plot showing the belly button scrubs per week
-* Bubble plot displaying OTU counts for the entire sample
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
-</p>
+### Analysis Results
+  * The overall passing rate decreased as with increased spending per student.
+  * Small (<1,000 students) and medium (1,000-2,000 students) sized schools had higher overall passing rates than large (2,000-5,000 students) schools.
+  * Average math and reading scores were higher for charter schools compared to district schools.
 
 ## Getting Started
 
