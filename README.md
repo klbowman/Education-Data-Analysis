@@ -6,7 +6,10 @@ Jupyter Notebook file that uses Pandas to analyze district-wide standardized tes
 
 This repository is designed to analyze data and create summary tables of standardized math and reading test scores. The data is stored in two CSV files (schools_complete.csv, students_complete.csv) in the Resources directoy of the PyCitySchools directory. 
 
-The CSV files are imported into the Jupyter Notebook file (PyCitySchools_starter.ipynb) and merged using a left join. From the merged dataframe, mathematical functions (i.e., sum, length, average, percent) are used to created a **District Summary** table, and the GroupBy function is used to create a similar table, **School Summary**, which displays the same information for each school in the district.
+The CSV files are imported into a Jupyter Notebook file (PyCitySchools_starter.ipynb) and merged using a left join. From the merged dataframe, mathematical functions (i.e., sum, length, average, percent) are used to created a **District Summary** table, and the GroupBy function is used to create a similar table, **School Summary** (shown below), which displays the same information for each school in the district.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/146276913-e3a78524-ad4d-47d8-8891-517b912600bb.png" alt="Dashboard Image"/>
+</p>
 
 ### Data Analysis
 - The sort_values function is used to list the top 5 and bottom 5 schools by overall % of students that passed both math and rading.
