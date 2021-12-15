@@ -9,7 +9,13 @@ Jupyter Notebook file that uses Pandas to analyze district-wide standardized tes
 
 ## Description
 
-This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
+This repository is designed to analyze data and create summary tables of standardized math and reading test scores. The data is stored in two CSV files (schools_complete.csv, students_complete.csv) in the Resources directoy of the PyCitySchools directory. 
+
+The CSV files are imported into the Jupyter Notebook file (PyCitySchools_starter.ipynb) and merged using a left join. Mathematical functions (i.e., sum, length, average, percent) are used to created a **District Summary** dataframe from the merged data. The GroupBy function is used to   
+
+
+
+visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
 * Bar graph displaying the top 10 OTUs by count
