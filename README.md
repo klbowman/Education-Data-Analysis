@@ -33,7 +33,7 @@ The CSV files are imported into a Jupyter Notebook file (PyCitySchools_starter.i
 * Clone this repository to your desktop.
 * Navitage to the PyCitySchools directory and run the PyCitySchools_starter.ipynb file in Jupyter Notebook. 
 
-## Authors
+## Author
 
 Katlin Bowman, PhD
 
