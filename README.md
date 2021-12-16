@@ -8,7 +8,7 @@ This repository is designed to analyze data and create summary tables of standar
 
 The CSV files are imported into a Jupyter Notebook file (PyCitySchools_starter.ipynb) and merged using a left join. From the merged dataframe, mathematical functions (i.e., sum, length, average, percent) are used to created a **District Summary** table, and the GroupBy function is used to create a similar table, **School Summary** (shown below), which displays the same information for each school in the district.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/146276913-e3a78524-ad4d-47d8-8891-517b912600bb.png" alt="Dashboard Image"/>
+  <img src="https://user-images.githubusercontent.com/74067302/146276913-e3a78524-ad4d-47d8-8891-517b912600bb.png" alt="Summary Table"/>
 </p>
 
 ### Data Analysis
@@ -31,7 +31,7 @@ The CSV files are imported into a Jupyter Notebook file (PyCitySchools_starter.i
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the PyCitySchools directory and run the PyCitySchools_starter.ipynb file in Jupyter Notebook. 
+* Navigate to the PyCitySchools directory and run the PyCitySchools_starter.ipynb file in Jupyter Notebook. 
 
 ## Author
 
